@@ -16,7 +16,7 @@ function App() {
       setLoading(true)
       setError(null)
 
-      const res = await fetch('https://jsonplaceholder.typicode.com/post/3')
+      const res = await fetch('https://jsonplaceholder.typicode.com/posts/2')
       const json = await res.json()
 
       setData(json)
